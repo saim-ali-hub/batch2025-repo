@@ -1,4 +1,4 @@
 FROM registry.redhat.io/rhel9/httpd-24
-RUN mkdir /opt/newdata
-RUN useradd john
+COPY index.html /var/www/html
+RUN  mkdir -p /opt/newdata
 
