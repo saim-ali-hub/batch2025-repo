@@ -1,3 +1,4 @@
 FROM registry.redhat.io/rhel9/httpd-24
-RUN mkdir /opt/web
-RUN mkdir /opt/mydata
+RUN mkdir /opt/newdata
+RUN useradd john
+
